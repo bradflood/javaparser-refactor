@@ -3,6 +3,54 @@ package com.keyholesoftware.refactor.parser.model;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
 public final class Session  {
+    public String getRemote() {
+        return remote;
+    }
+
+    public void setRemote(String remote) {
+        this.remote = remote;
+    }
+
+    public String getEjbClass() {
+        return ejbClass;
+    }
+
+    public void setEjbClass(String ejbClass) {
+        this.ejbClass = ejbClass;
+    }
+
+    public String getSessionType() {
+        return sessionType;
+    }
+
+    public void setSessionType(String sessionType) {
+        this.sessionType = sessionType;
+    }
+
+    public String getTransactionType() {
+        return transactionType;
+    }
+
+    public void setTransactionType(String transactionType) {
+        this.transactionType = transactionType;
+    }
+
+    public EjbLocalRef getEjbLocalRef() {
+        return ejbLocalRef;
+    }
+
+    public void setEjbLocalRef(EjbLocalRef ejbLocalRef) {
+        this.ejbLocalRef = ejbLocalRef;
+    }
+
+    public String getEjbName() {
+        return ejbName;
+    }
+
+    public String getHome() {
+        return home;
+    }
+
     @JacksonXmlProperty(localName = "ejb-name")
     private String ejbName;    
     @JacksonXmlProperty(localName = "home")

@@ -20,7 +20,7 @@ public class LogicPositivizerTest {
         // SourceRoot is a tool that read and writes Java files from packages on a certain root directory.
         // In this case the root directory is found by taking the root from the current Maven module,
         // with src/main/resources appended.
-        SourceRoot sourceRoot = new SourceRoot(Paths.get("src/test/resources/java_source_code/samplex"));
+        SourceRoot sourceRoot = new SourceRoot(Paths.get("src/test/resources/java_source_code/sample"));
         
 
         // Our sample is in the root of this directory, so no package name.
