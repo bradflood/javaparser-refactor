@@ -1,4 +1,4 @@
-package com.keyholesoftware.refactor.parser.model.ejb2;
+package com.keyholesoftware.refactor.descriptor.model.ejb2;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 

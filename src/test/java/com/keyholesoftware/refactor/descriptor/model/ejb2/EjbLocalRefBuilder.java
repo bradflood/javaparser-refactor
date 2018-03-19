@@ -1,6 +1,6 @@
-package com.keyholesoftware.refactor.parser.model;
+package com.keyholesoftware.refactor.descriptor.model.ejb2;
 
-import com.keyholesoftware.refactor.parser.model.ejb2.EjbLocalRef;
+import com.keyholesoftware.refactor.descriptor.model.ejb2.EjbLocalRef;
 
 public class EjbLocalRefBuilder {
 

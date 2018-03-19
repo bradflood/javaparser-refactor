@@ -1,8 +1,8 @@
-package com.keyholesoftware.refactor.parser;
+package com.keyholesoftware.refactor.descriptor;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.keyholesoftware.refactor.parser.model.ejb2.EjbJar;
+import com.keyholesoftware.refactor.descriptor.model.ejb2.EjbJar;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
