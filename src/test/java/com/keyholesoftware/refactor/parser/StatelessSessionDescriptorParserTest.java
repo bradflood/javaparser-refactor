@@ -4,10 +4,11 @@ import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.keyholesoftware.refactor.parser.model.EjbJar;
 import com.keyholesoftware.refactor.parser.model.EjbLocalRefBuilder;
-import com.keyholesoftware.refactor.parser.model.Session;
 import com.keyholesoftware.refactor.parser.model.SessionBuilder;
+import com.keyholesoftware.refactor.parser.model.ejb2.EjbJar;
+import com.keyholesoftware.refactor.parser.model.ejb2.Session;
+
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;

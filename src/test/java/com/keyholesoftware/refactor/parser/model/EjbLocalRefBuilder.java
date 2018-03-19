@@ -1,5 +1,7 @@
 package com.keyholesoftware.refactor.parser.model;
 
+import com.keyholesoftware.refactor.parser.model.ejb2.EjbLocalRef;
+
 public class EjbLocalRefBuilder {
 
     private String ejbRefName;

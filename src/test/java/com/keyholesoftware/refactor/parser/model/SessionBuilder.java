@@ -1,5 +1,8 @@
 package com.keyholesoftware.refactor.parser.model;
 
+import com.keyholesoftware.refactor.parser.model.ejb2.EjbLocalRef;
+import com.keyholesoftware.refactor.parser.model.ejb2.Session;
+
 public class SessionBuilder {
 
     private String ejbName;
