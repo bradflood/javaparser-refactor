@@ -54,7 +54,11 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.20.1</version>
 				</plugin>
-
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>jaxb-maven-plugin</artifactId>
+					<version>1.6</version>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
